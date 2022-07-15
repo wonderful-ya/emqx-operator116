@@ -19,6 +19,6 @@ case $(sed --help 2>&1) in
     *) SED_REPLACE="sed -i '' ";;
 esac
 
-${SED_REPLACE} "s|https://github.com/emqx/emqx-operator/releases/download/.*/emqx-operator-controller.yaml|https://github.com/emqx/emqx-operator/releases/download/${tag}/emqx-operator-controller.yaml|g" docs/en_US/getting-started/getting-started.md
-${SED_REPLACE} "s|https://github.com/emqx/emqx-operator/releases/download/.*/emqx-operator-controller.yaml|https://github.com/emqx/emqx-operator/releases/download/${tag}/emqx-operator-controller.yaml|g" docs/zh_CN/getting-started/getting-started.md
+${SED_REPLACE} "s|https://github.com/wonderful-ya/emqx-operator116/releases/download/.*/emqx-operator-controller.yaml|https://github.com/wonderful-ya/emqx-operator116/releases/download/${tag}/emqx-operator-controller.yaml|g" docs/en_US/getting-started/getting-started.md
+${SED_REPLACE} "s|https://github.com/wonderful-ya/emqx-operator116/releases/download/.*/emqx-operator-controller.yaml|https://github.com/wonderful-ya/emqx-operator116/releases/download/${tag}/emqx-operator-controller.yaml|g" docs/zh_CN/getting-started/getting-started.md
 ${SED_REPLACE} -r "s|^appVersion:.*|appVersion: ${tag}|g" deploy/charts/emqx-operator/Chart.yaml

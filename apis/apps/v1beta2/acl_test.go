@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/emqx/emqx-operator/apis/apps/v1beta2"
+	"github.com/wonderful-ya/emqx-operator116/apis/apps/v1beta2"
 )
 
 func TestACLDefault(t *testing.T) {

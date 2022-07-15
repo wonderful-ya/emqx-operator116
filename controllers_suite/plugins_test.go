@@ -20,9 +20,9 @@ import (
 	"context"
 	"encoding/base64"
 
-	"github.com/emqx/emqx-operator/apis/apps/v1beta2"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	"github.com/wonderful-ya/emqx-operator116/apis/apps/v1beta2"
 
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"

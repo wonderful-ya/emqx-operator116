@@ -3,8 +3,8 @@ package v1beta2_test
 import (
 	"testing"
 
-	"github.com/emqx/emqx-operator/apis/apps/v1beta2"
 	"github.com/stretchr/testify/assert"
+	"github.com/wonderful-ya/emqx-operator116/apis/apps/v1beta2"
 )
 
 func TestPluginsDefault(t *testing.T) {

@@ -1,4 +1,4 @@
-module github.com/emqx/emqx-operator
+module github.com/wonderful-ya/emqx-operator116
 
 go 1.16
 

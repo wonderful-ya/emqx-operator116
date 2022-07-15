@@ -9,8 +9,8 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 
 	"github.com/banzaicloud/k8s-objectmatcher/patch"
-	"github.com/emqx/emqx-operator/apis/apps/v1beta2"
-	"github.com/emqx/emqx-operator/pkg/service"
+	"github.com/wonderful-ya/emqx-operator116/apis/apps/v1beta2"
+	"github.com/wonderful-ya/emqx-operator116/pkg/service"
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"

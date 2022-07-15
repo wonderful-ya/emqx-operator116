@@ -22,7 +22,7 @@ limitations under the License.
 package v1beta1
 
 import (
-	"github.com/emqx/emqx-operator/apis/apps/v1beta2"
+	"github.com/wonderful-ya/emqx-operator116/apis/apps/v1beta2"
 	"k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 )

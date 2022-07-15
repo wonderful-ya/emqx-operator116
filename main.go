@@ -34,9 +34,9 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/healthz"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	appsv1beta1 "github.com/emqx/emqx-operator/apis/apps/v1beta1"
-	appsv1beta2 "github.com/emqx/emqx-operator/apis/apps/v1beta2"
-	controllers "github.com/emqx/emqx-operator/controllers/apps"
+	appsv1beta1 "github.com/wonderful-ya/emqx-operator116/apis/apps/v1beta1"
+	appsv1beta2 "github.com/wonderful-ya/emqx-operator116/apis/apps/v1beta2"
+	controllers "github.com/wonderful-ya/emqx-operator116/controllers/apps"
 	//+kubebuilder:scaffold:imports
 )
 

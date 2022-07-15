@@ -3,9 +3,9 @@ package v1beta1_test
 import (
 	"testing"
 
-	"github.com/emqx/emqx-operator/apis/apps/v1beta1"
-	"github.com/emqx/emqx-operator/apis/apps/v1beta2"
 	"github.com/stretchr/testify/assert"
+	"github.com/wonderful-ya/emqx-operator116/apis/apps/v1beta1"
+	"github.com/wonderful-ya/emqx-operator116/apis/apps/v1beta2"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

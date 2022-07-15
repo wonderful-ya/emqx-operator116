@@ -20,7 +20,7 @@ import (
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
 
-	"github.com/emqx/emqx-operator/apis/apps/v1beta2"
+	"github.com/wonderful-ya/emqx-operator116/apis/apps/v1beta2"
 	"sigs.k8s.io/controller-runtime/pkg/manager"
 )
 

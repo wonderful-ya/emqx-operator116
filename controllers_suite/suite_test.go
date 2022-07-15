@@ -26,8 +26,8 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/emqx/emqx-operator/apis/apps/v1beta2"
-	controllers "github.com/emqx/emqx-operator/controllers/apps"
+	"github.com/wonderful-ya/emqx-operator116/apis/apps/v1beta2"
+	controllers "github.com/wonderful-ya/emqx-operator116/controllers/apps"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/api/resource"

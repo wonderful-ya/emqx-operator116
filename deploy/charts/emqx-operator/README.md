@@ -63,8 +63,8 @@ Alternatively, a YAML file that specifies the values for the above parameters ca
 ```console
 $ helm install my-emqx-operator -f values.yaml .
 ```
-> **Tip**: You can use the default [values.yaml](https://github.com/emqx/emqx-operator/tree/main/deploy/charts/emqx-operator/values.yaml)
+> **Tip**: You can use the default [values.yaml](https://github.com/wonderful-ya/emqx-operator116/tree/main/deploy/charts/emqx-operator/values.yaml)
 
 ## Contributing
 
-This chart is maintained at [github.com/emqx/emqx-operator](https://github.com/emqx/emqx-operator/tree/main/deploy/charts/emqx-operator).
+This chart is maintained at [github.com/wonderful-ya/emqx-operator116](https://github.com/wonderful-ya/emqx-operator116/tree/main/deploy/charts/emqx-operator).

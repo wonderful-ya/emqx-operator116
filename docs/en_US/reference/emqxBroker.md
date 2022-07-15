@@ -1,7 +1,7 @@
 # EmqxBroker
 
 `apiVersion: v1beta2`
-`import: "github.com/emqx/emqx-operator/apis/apps/v1beta2"`
+`import: "github.com/wonderful-ya/emqx-operator116/apis/apps/v1beta2"`
 
 - **apiVersion**: v1beta2
 
